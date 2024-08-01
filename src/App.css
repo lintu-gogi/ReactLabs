@@ -1,2 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  border: grey;
+}
 
+.HomePage, .EmployeePage {
+  flex: 1;
+  overflow-y: auto;
+  border: goldenrod;
+}
 
+.EmployeePage {
+  border-left: 1px solid #911b1b;
+}
